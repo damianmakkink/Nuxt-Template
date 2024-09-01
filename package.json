@@ -1,0 +1,36 @@
+{
+  "name": "nuxt-app",
+  "dependencies": {
+    "@nuxt/fonts": "^0.7.1",
+    "@nuxt/ui": "^2.18.4",
+    "@nuxtjs/i18n": "^8.3.3",
+    "@pinia/nuxt": "^0.5.3",
+    "algoliasearch": "^4.24.0",
+    "firebase": "^10.12.5",
+    "nuxt": "^3.13.0",
+    "pinia": "^2.2.1",
+    "vue": "latest"
+  },
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test": "vitest",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@iconify-json/ph": "^1.1.14",
+    "@nuxt/eslint": "^0.5.0",
+    "@nuxt/test-utils": "^3.14.0",
+    "@pinia-plugin-persistedstate/nuxt": "^1.2.1",
+    "@vue/test-utils": "^2.4.6",
+    "eslint": "^9.8.0",
+    "happy-dom": "^14.12.3",
+    "vitest": "^2.0.5"
+  }
+}
